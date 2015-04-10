@@ -34,4 +34,16 @@ describe('findTriangle', function() {
   it('takes a 3, 5, 8, and returns "Invalid"', function() {
     expect(findTriangle(3,5,8)).to.equal("Invalid");
   });
+
+  it('takes a 123, 6, 7, and returns "Invalid"', function() {
+    expect(findTriangle(123,6,7)).to.equal("Invalid");
+  });
+
+  it('takes a 3, 54, 8, and returns "Invalid"', function() {
+    expect(findTriangle(3,54,8)).to.equal("Invalid");
+  });
+
+  it('takes a 3, 5, 82, and returns "Invalid"', function() {
+    expect(findTriangle(3,5,82)).to.equal("Invalid");
+  });
 });
