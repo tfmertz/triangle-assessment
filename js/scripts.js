@@ -34,7 +34,7 @@ $(document).ready(function() {
     $("#triangle-result").text(result);
     $("#result").show();
 
-    alert(sideA + sideB + sideC);
+    $("#sideA").focus();
 
     event.preventDefault();
   });

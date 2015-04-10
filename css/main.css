@@ -1,8 +1,26 @@
+header {
+  background: url('triangle_pattern.jpg') no-repeat;
+  height: 125px;
+  margin-bottom: 50px;
+}
 
 header h1 {
+  color: snow;
   text-align: center;
+  padding: 20px 0;
+  background-size: 100%;
+}
+
+#converter input {
+  font-size: 1.75em;
+  width: 60%;
+}
+
+h3 {
+  border-bottom: 1px solid #ccc;
 }
 
 #result {
+  font-size: 2em;
   display: none;
 }
