@@ -25,6 +25,7 @@ $(document).ready(function() {
 
   $("#calculate").submit(function(event) {
 
+    var sideA = parseInt($("#sideA").val());
 
   });
 
