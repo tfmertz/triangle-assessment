@@ -34,3 +34,11 @@ h3 {
   font-size: 2em;
   display: none;
 }
+
+#triangle-result {
+  color: #0C6B32;
+}
+
+#triangle-invalid {
+  color: #FF1919;
+}
