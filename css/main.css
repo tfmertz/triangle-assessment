@@ -1,5 +1,7 @@
 
-
+header h1 {
+  text-align: center;
+}
 
 #result {
   display: none;

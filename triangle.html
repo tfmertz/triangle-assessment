@@ -2,6 +2,8 @@
 
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/main.css">
@@ -16,7 +18,7 @@
     </header>
     <div class="container">
       <div class="row">
-        <div class="twelve columns">
+        <div class="offset-by-four four columns">
           <form id="converter">
             <label for="sideA">Enter Side A:</label>
             <input type="text" id="sideA">
@@ -25,8 +27,14 @@
             <label for="sideA">Enter Side C:</label>
             <input type="text" id="sideC">
 
-            <button class="button-primary" type="submit">Calculate</button>
+            <button class="button-primary u-cf" type="submit">Calculate</button>
           </form>
+        </div>
+
+        <div id="result" class="twelve columns">
+          <p>
+            Your triangle is <span id="triangle-result"></span>
+          </p>
         </div>
       </div>
     </div>

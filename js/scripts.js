@@ -23,10 +23,20 @@ function findTriangle(sideA, sideB, sideC) {
 
 $(document).ready(function() {
 
-  $("#calculate").submit(function(event) {
+  $("#converter").submit(function(event) {
 
     var sideA = parseInt($("#sideA").val());
+    var sideB = parseInt($("#sideB").val());
+    var sideC = parseInt($("#sideC").val());
 
+    var result = findTriangle(sideA, sideB, sideC);
+
+    $("#triangle-result").text(result);
+    $("#result").show();
+
+    alert(sideA + sideB + sideC);
+
+    event.preventDefault();
   });
 
 });
