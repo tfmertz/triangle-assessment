@@ -9,8 +9,9 @@ function findTriangle(sideA, sideB, sideC) {
   //check if the triangle is valid
   var side_array = [sideA, sideB, sideC];
   side_array.sort();
-    return "Invalid";
+  //if the smallest sides are equal or less than the biggest it's not a valid triangle
   if(side_array[0] + side_array[1] <= side_array[2]) {
+    return "Invalid";
   }
 
   //if the left side evaluates to true the string will always be true
