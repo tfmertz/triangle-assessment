@@ -1,7 +1,6 @@
-header {
-  background: url('triangle_pattern.jpg') no-repeat;
-  height: 125px;
-  margin-bottom: 50px;
+
+body {
+  background-color: ghostwhite;
 }
 
 header h1 {
@@ -9,11 +8,22 @@ header h1 {
   text-align: center;
   padding: 20px 0;
   background-size: 100%;
+  background: url('triangle_pattern.jpg') no-repeat;
+  text-shadow: 1px 1px 3px black;
 }
 
 #converter input {
   font-size: 1.75em;
   width: 60%;
+}
+
+#converter button {
+  display: block;
+  font-size: 1.50em;
+  width: 60%;
+  text-transform: none;
+  padding: 5px 0;
+  height: inherit;
 }
 
 h3 {
