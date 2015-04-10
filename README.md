@@ -24,7 +24,7 @@ This app takes values for three sides of a triangle and returns what type of tri
 * jQuery 1.11.2
 * Behavior Driven Development
   * Mocha 2.2.4
-  * Chai 2.1.0
+  * Chai 2.2.0
 
 #### License
 
