@@ -1,7 +1,7 @@
 
 /* Takes three sides of a triangle and returns
  * either 'Equilateral', 'Isosceles', or 'Scalene'
- * if they are valid.
+ * if they are valid. If invalid, it returns 'Invalid'
 */
 
 function findTriangle(sideA, sideB, sideC) {
@@ -20,3 +20,12 @@ function findTriangle(sideA, sideB, sideC) {
          ((sideA === sideB || sideB === sideC || sideA === sideC) && 'Isosceles') ||
          'Scalene';
 }
+
+$(document).ready(function() {
+
+  $("#calculate").submit(function(event) {
+
+
+  });
+
+});
